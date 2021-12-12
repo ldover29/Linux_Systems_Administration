@@ -111,18 +111,18 @@ The basics of IT system administration
 
 1. Command to install Lynis: **sudo apt -y install lynis**
 
-![name-of-you-image](
+![name-of-you-image](https://github.com/ldover29/Linux_Systems_Administration/blob/9b061fce6d51e88d136969942bd47c2aa6dfc9e1/images/Step%204%20-%201.jpg)
 
 2. Command to see documentation and instructions: **man lynis**
 
-![name-of-you-image](
+![name-of-you-image](https://github.com/ldover29/Linux_Systems_Administration/blob/9b061fce6d51e88d136969942bd47c2aa6dfc9e1/images/Step%204%20-%202.jpg)
 
 3. Command to run an audit: **sudo lynis audit system**
 
-![name-of-you-image](
+![name-of-you-image](https://github.com/ldover29/Linux_Systems_Administration/blob/9b061fce6d51e88d136969942bd47c2aa6dfc9e1/images/Step%204%20-%202b.jpg)
 
 4. Provide a report from the Lynis output on what can be done to harden the system.
 
 Screenshot of report output: 
 
-![name-of-you-image](
+![name-of-you-image](https://github.com/ldover29/Linux_Systems_Administration/blob/9b061fce6d51e88d136969942bd47c2aa6dfc9e1/images/Step%204%20-%204.jpg)
