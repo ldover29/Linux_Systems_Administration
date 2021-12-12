@@ -3,7 +3,7 @@ The basics of IT system administration
 
 # Step 1: Ensure/Double Check Permissions on Sensitive Files
 
-1. Permissions on /etc/shadow should allow only root read and write access.
+**1. Permissions on /etc/shadow should allow only root read and write access.**
 
 - Command to inspect permissions: **ls -l shadow**
 
@@ -11,7 +11,7 @@ The basics of IT system administration
 
 - Command to set permissions (if needed): **n/a**
 
-2. Permissions on /etc/gshadow should allow only root read and write access.
+**2. Permissions on /etc/gshadow should allow only root read and write access.**
 
 - Command to inspect permissions: **ls -l gshadow**
 
@@ -19,7 +19,7 @@ The basics of IT system administration
 
 - Command to set permissions (if needed): **n/a**
 
-3. Permissions on /etc/group should allow root read and write access, and allow everyone else read access only.
+**3. Permissions on /etc/group should allow root read and write access, and allow everyone else read access only.**
 
 - Command to inspect permissions: **ls -l group**
 
@@ -27,7 +27,7 @@ The basics of IT system administration
 
 - Command to set permissions (if needed): **n/a**
 
-4. Permissions on /etc/passwd should allow root read and write access, and allow everyone else read access only.
+**4. Permissions on /etc/passwd should allow root read and write access, and allow everyone else read access only.**
 
 - Command to inspect permissions: **ls -l passwd**
 
@@ -37,7 +37,7 @@ The basics of IT system administration
 
 # Step 2: Create User Accounts
 
-1. Add user accounts for sam, joe, amy, sara, and admin.
+**1. Add user accounts for sam, joe, amy, sara, and admin.**
 
 - Command to add each user account (include all five users):
 
@@ -61,17 +61,19 @@ The basics of IT system administration
 
 ![name-of-you-image](https://github.com/ldover29/Linux_Systems_Administration/blob/1c8d31b69c858ea2f586f3e6fb62a3af836d7e64/images/step%202%20-%201%20sudo%20adduser%20admin.jpg)
 
-2. Ensure that only the admin has general sudo access.
+**2. Ensure that only the admin has general sudo access.**
 
 - Command to add admin to the sudo group: **sudo usermod -aG sudo admin**
 
+![name-of-you-image](https://github.com/ldover29/Linux_Systems_Administration/blob/dc21735d0e2aa51d925562b1d27c033f2bb6712a/images/step%202%20-%202%20sudo%20usermod%20-ag%20admin.jpg)
+
 # Step 3: Create User Group and Collaborative Folder
 
-1. Add an engineers group to the system.
+**1. Add an engineers group to the system.**
 
 - Command to add group: **sudo addgroup engineers**
 
-2. Add users sam, joe, amy, and sara to the managed group.
+**2. Add users sam, joe, amy, and sara to the managed group.**
 
 - Command to add users to engineers group (include all four users): 
 
@@ -83,11 +85,11 @@ The basics of IT system administration
 
 **sudo usermod -aG engineers sara**
 
-3. Create a shared folder for this group at /home/engineers.
+**3. Create a shared folder for this group at /home/engineers.**
 
 - Command to create the shared folder: **sudo chmod 777 /home/engineers**
 
-4. Change ownership on the new engineers' shared folder to the engineers group.
+**4. Change ownership on the new engineers' shared folder to the engineers group.**
 
 - Command to change ownership of engineer's shared folder to engineer group: **sudo chown :engineers /home/engineers**
 
