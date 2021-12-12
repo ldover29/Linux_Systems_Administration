@@ -93,19 +93,19 @@ The basics of IT system administration
 
 **sudo usermod -aG engineers sara**
 
-![name-of-you-image](https://github.com/ldover29/Linux_Systems_Administration/blob/f00324e36b51e18ee155880b1d9b1cd4832adf2a/images/step%203%20-%202%20%20sudo%20usermod%20-ag%20engineers%20sara.jpg)
-
 **3. Create a shared folder for this group at /home/engineers.**
 
 - Command to create the shared folder: **sudo chmod 777 /home/engineers**
 
-![name-of-you-image](
+![name-of-you-image](https://github.com/ldover29/Linux_Systems_Administration/blob/5f2010f7734930ec1886957e40d3198ace2a5276/images/step%203%20-%203%20%20sudo%20chmod%20-777.jpg)
 
 **4. Change ownership on the new engineers' shared folder to the engineers group.**
 
 - Command to change ownership of engineer's shared folder to engineer group: **sudo chown :engineers /home/engineers**
 
-![name-of-you-image](
+![name-of-you-image](https://github.com/ldover29/Linux_Systems_Administration/blob/5f2010f7734930ec1886957e40d3198ace2a5276/images/step%203%20-%204%20%20sudo%20chown.jpg)
+
+![name-of-you-image](https://github.com/ldover29/Linux_Systems_Administration/blob/5f2010f7734930ec1886957e40d3198ace2a5276/images/step%203%20-%204%20%20sudo%20chown%202.jpg)
 
 # Step 4: Lynis Auditing
 
