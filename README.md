@@ -7,7 +7,7 @@ The basics of IT system administration
 
 - Command to inspect permissions: **ls -l shadow**
 
-![name-of-you-image](
+![name-of-you-image](https://github.com/ldover29/Linux_Systems_Administration/blob/ea6119e06562f4d7f240ab6e0aee9ee97384be19/images/1%20ls%20-l%20shadow.jpg)
 
 Command to set permissions (if needed): n/a
 
