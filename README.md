@@ -1,6 +1,11 @@
 # Linux_Systems_Administration
 The basics of IT system administration
 
+# Scenario
+You acted as system administrator in order to troubleshoot a malfunctioning server.
+
+The senior administrator was quite pleased with your work. Now, they would like you to prepare another server to replace this server. You are tasked with completing the steps below to prepare a new server.
+
 # Step 1: Ensure/Double Check Permissions on Sensitive Files
 
 **1. Permissions on /etc/shadow should allow only root read and write access.**
