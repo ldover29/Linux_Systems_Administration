@@ -73,34 +73,56 @@ The basics of IT system administration
 
 - Command to add group: **sudo addgroup engineers**
 
+![name-of-you-image](https://github.com/ldover29/Linux_Systems_Administration/blob/900c4cfdf6c43fe5bc535b0b0526ec052cd6dfa2/images/step%203%20-%201%20sudo%20addgroup%20engineers.jpg)
+
 **2. Add users sam, joe, amy, and sara to the managed group.**
 
 - Command to add users to engineers group (include all four users): 
 
 **sudo usermod -aG engineers sam**
 
+![name-of-you-image](
+
 **sudo usermod -aG engineers joe**
+
+![name-of-you-image](
 
 **sudo usermod -aG engineers amy**
 
+![name-of-you-image](
+
 **sudo usermod -aG engineers sara**
+
+![name-of-you-image](
 
 **3. Create a shared folder for this group at /home/engineers.**
 
 - Command to create the shared folder: **sudo chmod 777 /home/engineers**
 
+![name-of-you-image](
+
 **4. Change ownership on the new engineers' shared folder to the engineers group.**
 
 - Command to change ownership of engineer's shared folder to engineer group: **sudo chown :engineers /home/engineers**
+
+![name-of-you-image](
 
 # Step 4: Lynis Auditing
 
 1. Command to install Lynis: **sudo apt -y install lynis**
 
+![name-of-you-image](
+
 2. Command to see documentation and instructions: **man lynis**
 
+![name-of-you-image](
+
 3. Command to run an audit: **sudo lynis audit system**
+
+![name-of-you-image](
 
 4. Provide a report from the Lynis output on what can be done to harden the system.
 
 Screenshot of report output: 
+
+![name-of-you-image](
