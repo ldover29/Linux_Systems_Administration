@@ -81,19 +81,19 @@ The basics of IT system administration
 
 **sudo usermod -aG engineers sam**
 
-![name-of-you-image](
+![name-of-you-image](https://github.com/ldover29/Linux_Systems_Administration/blob/f00324e36b51e18ee155880b1d9b1cd4832adf2a/images/step%203%20-%202%20%20sudo%20usermod%20-ag%20engineers%20sam.jpg)
 
 **sudo usermod -aG engineers joe**
 
-![name-of-you-image](
+![name-of-you-image](https://github.com/ldover29/Linux_Systems_Administration/blob/f00324e36b51e18ee155880b1d9b1cd4832adf2a/images/step%203%20-%202%20%20sudo%20usermod%20-ag%20engineers%20joe.jpg)
 
 **sudo usermod -aG engineers amy**
 
-![name-of-you-image](
+![name-of-you-image](https://github.com/ldover29/Linux_Systems_Administration/blob/f00324e36b51e18ee155880b1d9b1cd4832adf2a/images/step%203%20-%202%20%20sudo%20usermod%20-ag%20engineers%20amy.jpg)
 
 **sudo usermod -aG engineers sara**
 
-![name-of-you-image](
+![name-of-you-image](https://github.com/ldover29/Linux_Systems_Administration/blob/f00324e36b51e18ee155880b1d9b1cd4832adf2a/images/step%203%20-%202%20%20sudo%20usermod%20-ag%20engineers%20sara.jpg)
 
 **3. Create a shared folder for this group at /home/engineers.**
 
